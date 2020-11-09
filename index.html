@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/eea51bea51.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
     <style>
         input[type='text'] {
@@ -12,6 +13,12 @@
         }
         a:link {
             text-decoration: none;
+        }
+        @media (max-width: 600px) {
+            .card {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
         }
     </style>
 </head>
@@ -82,7 +89,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 card card-body text-center">
+                    <div class="col-md-4 mb-4 card card-body text-center">
                         <img  class="img-fluid" src="./img/bracelet.jpg" alt="shoes" style="height: 200px;">
                         <h3 class="mt-2">Bracelet</h3>
                         <ul class="pagination mx-auto">
@@ -100,7 +107,7 @@
                             PRICE : $<span class="bracelet-price">50</span>
                         </div>
                     </div>
-                    <div class="col-md-4 card card-body text-center">
+                    <div class="col-md-4 mb-4 card card-body text-center">
                         <img  class="img-fluid" src="./img/sunglass.jpg" alt="shoes" style="height: 200px;">
                         <h3 class="mt-2">Sunglass</h3>
                         <ul class="pagination mx-auto">
@@ -118,7 +125,7 @@
                             PRICE : $<span class="sunglass-price">20</span>
                         </div>
                     </div>
-                    <div class="col-md-4 card card-body text-center">
+                    <div class="col-md-4 mb-4 card card-body text-center">
                         <img  class="img-fluid" src="./img/airpods.jpg" alt="shoes" style="height: 200px;">
                         <h3 class="mt-2">Apple Airpods</h3>
                         <ul class="pagination mx-auto">
@@ -140,7 +147,7 @@
                 <hr>
             </div>
             <div class="col-md-3">
-                <div class="card">
+                <div class="card mb-4">
                     <div class="card-header text-center">Total Amount</div>
                     <div class="card-body">
                         <div class="d-flex justify-content-between">
@@ -159,7 +166,7 @@
                         <a href="#" class="btn btn-primary btn-block">Check Out</a>
                     </div>
                 </div>
-                <div class="card mt-3">
+                <div class="card mt-3 mb-4">
                     <div class="card-header">
                         <button class="btn btn-block" data-toggle="collapse" data-target="#btn-1">Coupan code <i class="fas fa-chevron-down"></i></button>
                     </div>
